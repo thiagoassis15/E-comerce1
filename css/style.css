@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+/* GRID AQUI 👇 */
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  grid-template-areas:"h1 nav nav div";
+  gap: 50px;
+  padding: 0px;
+  background-color: blue;   
+}
+
+header h1{
+    background-color: red; 
+    width: 250px;
+}
+header nav{
+    background-color: aqua;
+    text-align: center;
+    width: 600px;
+}
