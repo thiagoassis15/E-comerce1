@@ -116,6 +116,15 @@ header div:last-child::after {
     font-weight: bold;
 }
 
+header div:last-child:hover::after {
+    background-color: #ff0019;
+    width: 22px;
+    height: 22px;
+    transition: all 0.2s ease;
+}
+
+
+/*banner*/
 .banner {
     box-shadow: 0px 10px 10px 0px #dad9d9;
 }
@@ -141,7 +150,7 @@ section div {
     width: 900px;
 }
 .cat_roupas:hover, .cat_brinquedos:hover, .cat_acessorios:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
     border: 8px solid rgb(32, 127, 252);
     transition: all 0.3s ease;
     cursor: pointer;
@@ -184,6 +193,7 @@ section div {
     display: flex;
     justify-content: center;
     gap: 175px;
+    color: #303eff;
 }
 
 .cat_titulo p {
@@ -216,7 +226,7 @@ main {
 }
 
 .product-card:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
 
 .product-card img {
@@ -300,6 +310,85 @@ main {
     display: block;
 }
 /*//////////////////*/
+
+/* produto 4 */
+.produto4-hover {
+    display: none;
+    cursor: pointer;
+}
+.product-card:hover .produto4 {
+    display: none;
+}
+.product-card:hover .produto4-hover {
+    display: block;
+}
+/*//////////////////*/
+
+/* produto 5 */
+.produto5-hover {
+    display: none;
+    cursor: pointer;
+}
+.product-card:hover .produto5 {
+    display: none;
+}
+.product-card:hover .produto5-hover {
+    display: block;
+}
+/*//////////////////*/
+
+/* produto 6 */
+.produto6-hover {
+    display: none;
+    cursor: pointer;
+}
+.product-card:hover .produto6 {
+    display: none;
+}
+.product-card:hover .produto6-hover {
+    display: block;
+}
+/*//////////////////*/
+
+/* produto 7 */
+.produto7-hover {
+    display: none;
+    cursor: pointer;
+}
+.product-card:hover .produto7 {
+    display: none;
+}
+.product-card:hover .produto7-hover {
+    display: block;
+}
+/*//////////////////*/
+
+/* produto 8 */
+.produto8-hover {
+    display: none;
+    cursor: pointer;
+}
+.product-card:hover .produto8 {
+    display: none;
+}
+.product-card:hover .produto8-hover {
+    display: block;
+}
+/*//////////////////*/
+
+/* produto 9 */
+.produto9-hover {
+    display: none;
+    cursor: pointer;
+}
+.product-card:hover .produto9 {
+    display: none;
+}
+.product-card:hover .produto9-hover {
+    display: block;
+}
+/*//////////////////*/
+
 
 /* Responsividade */
 @media (max-width: 768px) {

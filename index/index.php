@@ -1,0 +1,88 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Simples</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <h1>LOGO</h1>
+    <nav>
+        <input type="text" placeholder="Buscar produtos...">
+    </nav>
+    <?php if(isset($_SESSION['primeiro_nome'])): ?>
+        <div class="conta" style="background-color: #15df44;">
+            Olá, <?php echo $_SESSION['primeiro_nome']; ?>
+        </div>
+    <?php else: ?>
+        <div class="conta">
+            <a href="../cadastro/cadastro.html" style="text-decoration: none; color:aliceblue">Criar conta</a>
+        </div>
+    <?php endif; ?>
+    <div>Carrinho</div>
+</header>
+<div class="banner">
+    <img src="https://img.cdndsgni.com/preview/13068886.jpg" alt="Banner">
+</div>
+
+<section>
+        <h2 style="text-align: center; margin: 35px; font-size: 35px; background-color: rgb(125, 184, 240); border: 3px solid rgb(101, 101, 241); border-radius: 30px;">Categorias</h2>
+        <div>
+            <div class="cat">
+                <a href="../categoria_roupas/index.html">
+                    <div class="cat_roupas"></div>
+                </a>
+                <a href="../categoria_brinquedos/index.html">    
+                    <div class="cat_brinquedos"></div>
+                </a>    
+                <a href="../categoria_acessorios/index.html">
+                    <div class="cat_acessorios"></div>
+                </a>    
+            </div>
+        </div> 
+        <div class="cat_titulo">
+             <p>Roupas</p> <p>Brinquedos</p> <p>Acessórios</p>
+        </div>       
+</section>
+
+<main>
+    <h3 style="margin: 90px 0px 50px 20px; font-size: 40px; font-weight: bold; color: rgb(48, 48, 134);">Produtos mais vendidos</h3>
+
+
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="../fotos/produto1.jpg" alt="Produto1" class="produto1">
+            <img src="../fotos/produto1_2.png" alt="Produto1" class="produto1-hover">
+            <h3>Blusa floral + shorts lilás travel</h3>
+            <p>Deixe a sua filha brilhar com esse conjunto!</p>
+            <div class="price">R$ 79,90</div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        
+        <div class="product-card">
+            <img src="../fotos/produto2.jpg" alt="Produto2" class="produto2">
+            <img src="../fotos/produto2_2.png" alt="Produto2" class="produto2-hover">
+            <h3>blusa gatinho + shorts de bolinhas</h3>
+            <p>Transforme sua princesa num gatinho fofo!</p>
+            <div class="price">R$ 89,90</div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product-card">
+            <img src="../fotos/produto3.jpg" alt="Produto3" class="produto3">
+            <img src="../fotos/produto3_2.jpg" alt="Produto3" class="produto3-hover">
+            <h3>Vestido floral baby</h3>
+            <p>Sua neném vai fiacar linda no verão!</p>
+            <div class="price">R$ 45,50</div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        
+        
+    </div>
+</main>
+
+</body>
+</html>
