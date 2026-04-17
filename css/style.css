@@ -59,6 +59,23 @@ nav input::placeholder {
     color: #999;
 }
 
+/* Criar Conta*/
+.conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 35px;
+    background-color: #007bff;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.conta:hover {
+    background-color: #003e80;
+    color: white;
+    cursor: pointer;
+}
+
 /* Carrinho */
 header div:last-child {
     position: relative;
@@ -108,6 +125,71 @@ header div:last-child::after {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Conteúdo Categorias */
+section div {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin: 0px;
+    padding: 0px;
+}
+
+.cat {
+    height: 220px;
+    width: 900px;
+}
+.cat_roupas:hover, .cat_brinquedos:hover, .cat_acessorios:hover {
+    transform: translateY(-3px);
+    border: 8px solid rgb(32, 127, 252);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.cat_roupas {
+    width: 200px;
+    height: 200px;
+    border: 8px solid rgb(152, 193, 247);
+    border-radius: 50%;
+    margin: 30px;
+    background-image: url(../fotos/produto2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cat_brinquedos {
+    width: 200px;
+    height: 200px;
+    border: 8px solid rgb(152, 193, 247);
+    border-radius: 50%;
+    margin: 30px;
+    background-image: url(../fotos/produto2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cat_acessorios {
+    width: 200px;
+    height: 200px;
+    border: 8px solid rgb(152, 193, 247);
+    border-radius: 50%;
+    margin: 30px;
+    background-image: url(../fotos/produto2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cat_titulo {
+    display: flex;
+    justify-content: center;
+    gap: 175px;
+}
+
+.cat_titulo p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
 }
 
 /* Conteúdo principal */
@@ -178,6 +260,46 @@ main {
 .product-card button:hover {
     background-color: #175e26;
 }
+
+
+/* Fotos dos produtos */
+/* produto 1 */
+.produto1-hover {
+    display: none;
+    cursor: pointer;
+}
+.product-card:hover .produto1 {
+    display: none;
+}
+.product-card:hover .produto1-hover {
+    display: block;
+}
+/*//////////////////*/
+/* produto 2 */
+.produto2-hover {
+    display: none;
+    cursor: pointer;
+}
+.product-card:hover .produto2 {
+    display: none;
+}
+.product-card:hover .produto2-hover {
+    display: block;
+}
+/*//////////////////*/
+
+/* produto 3 */
+.produto3-hover {
+    display: none;
+    cursor: pointer;
+}
+.product-card:hover .produto3 {
+    display: none;
+}
+.product-card:hover .produto3-hover {
+    display: block;
+}
+/*//////////////////*/
 
 /* Responsividade */
 @media (max-width: 768px) {
