@@ -153,7 +153,7 @@ section div {
     border: 8px solid rgb(152, 193, 247);
     border-radius: 50%;
     margin: 30px;
-    background-image: url(../fotos/produto2.jpg);
+    background-image: url(../fotos/cat_roupas.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -164,7 +164,7 @@ section div {
     border: 8px solid rgb(152, 193, 247);
     border-radius: 50%;
     margin: 30px;
-    background-image: url(../fotos/produto2.jpg);
+    background-image: url(../fotos/cat_brinquedo.webp);
     background-size: cover;
     background-position: center;
 }
@@ -175,7 +175,7 @@ section div {
     border: 8px solid rgb(152, 193, 247);
     border-radius: 50%;
     margin: 30px;
-    background-image: url(../fotos/produto2.jpg);
+    background-image: url(../fotos/cat_acessório.webp);
     background-size: cover;
     background-position: center;
 }
@@ -194,7 +194,7 @@ section div {
 
 /* Conteúdo principal */
 main {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -202,8 +202,8 @@ main {
 /* Cards de produtos exemplo (serão criados via JavaScript ou HTML) */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
     margin-top: 20px;
 }
 
