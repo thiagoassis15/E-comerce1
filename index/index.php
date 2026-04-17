@@ -80,6 +80,59 @@
             <button>Adicionar ao Carrinho</button>
         </div>
         
+        <div class="product-card">
+            <img src="../fotos/produto4.jpg" alt="Produto4" class="produto4">
+            <img src="../fotos/produto4_2.jpg" alt="produto4_2" class="produto4-hover">
+            <h3>Titulo</h3>
+            <p>descrição</p>
+            <div class="price">R$ 99,99</div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product-card">
+            <img src="../fotos/produto5.jpg" alt="Produto5" class="produto5">
+            <img src="../fotos/produto5_2.jpg" alt="produto5_2" class="produto5-hover">
+            <h3>Titulo</h3>
+            <p>descrição</p>
+            <div class="price">R$ 99,99</div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product-card">
+            <img src="../fotos/produto6.jpg" alt="Produto6" class="produto6">
+            <img src="../fotos/produto6_2.jpg" alt="produto6_2" class="produto6-hover">
+            <h3>Titulo</h3>
+            <p>descrição</p>
+            <div class="price">R$ 99,99</div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product-card">
+            <img src="../fotos/produto7.jpg" alt="Produto7" class="produto7">
+            <img src="../fotos/produto7_2.jpg" alt="produto7_2" class="produto7-hover">
+            <h3>Titulo</h3>
+            <p>descrição</p>
+            <div class="price">R$ 99,99</div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product-card">
+            <img src="../fotos/produto8.jpg" alt="Produto8" class="produto8">
+            <img src="../fotos/produto8_2.jpg" alt="produto8_2" class="produto8-hover">
+            <h3>Titulo</h3>
+            <p>descrição</p>
+            <div class="price">R$ 99,99</div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+
+        <div class="product-card">
+            <img src="../fotos/produto9.jpg" alt="Produto9" class="produto9">
+            <img src="../fotos/produto9_2.jpg" alt="produto9_2" class="produto9-hover">
+            <h3>Titulo</h3>
+            <p>descrição</p>
+            <div class="price">R$ 99,99</div>
+            <button>Adicionar ao Carrinho</button>
+        </div>
         
     </div>
 </main>
