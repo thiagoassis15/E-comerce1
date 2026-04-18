@@ -7,7 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    padding-top: 80px; /* Espaço para o header fixo */
+    padding-top: 80px;
+    background: linear-gradient(200deg, #f1f1e3 0%, #ffffff 100%);
 }
 
 /* Header fixo */
@@ -16,7 +17,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #ffffff;
+    background-color: #ffee00;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
@@ -28,7 +29,7 @@ header {
 header h1 {
     font-size: 28px;
     font-weight: bold;
-    color: #333;
+    color: #000000;
     margin: 0;
     cursor: pointer;
 }
@@ -43,7 +44,7 @@ nav {
 nav input {
     width: 100%;
     padding: 12px 20px 12px 40px;
-    border: 3px solid #e0e0e0;
+    border: 3px solid #e100ff;
     border-radius: 25px;
     font-size: 14px;
     outline: none;
@@ -51,8 +52,8 @@ nav input {
 }
 
 nav input:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+    border-color: #ff00dd;
+    box-shadow: 0 0 15px #ff00dd;
 }
 
 nav input::placeholder {
@@ -66,12 +67,12 @@ nav input::placeholder {
     justify-content: center;
     width: 150px;
     height: 35px;
-    background-color: #007bff;
+    background: linear-gradient(135deg, #e100ff 0%, #990085 100%);
     border-radius: 25px;
     transition: all 0.3s ease;
 }
 .conta:hover {
-    background-color: #003e80;
+    background-color: #ff00dd;
     color: white;
     cursor: pointer;
 }
@@ -151,7 +152,7 @@ section div {
 }
 .cat_roupas:hover, .cat_brinquedos:hover, .cat_acessorios:hover {
     transform: translateY(-5px);
-    border: 8px solid rgb(32, 127, 252);
+    border: 8px solid #e100ff;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -159,7 +160,7 @@ section div {
 .cat_roupas {
     width: 200px;
     height: 200px;
-    border: 8px solid rgb(152, 193, 247);
+    border: 8px solid #ffee00;
     border-radius: 50%;
     margin: 30px;
     background-image: url(../fotos/cat_roupas.jpg);
@@ -170,7 +171,7 @@ section div {
 .cat_brinquedos {
     width: 200px;
     height: 200px;
-    border: 8px solid rgb(152, 193, 247);
+    border: 8px solid #ffee00;
     border-radius: 50%;
     margin: 30px;
     background-image: url(../fotos/cat_brinquedo.webp);
@@ -181,7 +182,7 @@ section div {
 .cat_acessorios {
     width: 200px;
     height: 200px;
-    border: 8px solid rgb(152, 193, 247);
+    border: 8px solid #ffee00;
     border-radius: 50%;
     margin: 30px;
     background-image: url(../fotos/cat_acessório.webp);
@@ -193,7 +194,7 @@ section div {
     display: flex;
     justify-content: center;
     gap: 175px;
-    color: #303eff;
+    color: #000000;
 }
 
 .cat_titulo p {
@@ -218,7 +219,7 @@ main {
 }
 
 .product-card {
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.1);
@@ -233,7 +234,7 @@ main {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 .product-card h3 {
@@ -388,34 +389,6 @@ main {
     display: block;
 }
 /*//////////////////*/
-
-
-/* Responsividade */
-@media (max-width: 768px) {
-    header {
-        flex-direction: row;
-        padding: 10px;
-        gap: 10px;
-    }
-    
-    body {
-        padding-top: 120px;
-    }
-    
-    nav {
-        width: 100%;
-        margin: 0;
-    }
-    
-    header h1 {
-        font-size: 24px;
-    }
-    
-    .product-grid {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 15px;
-    }
-}
 
 
 /* Scroll suave */
